@@ -1,0 +1,263 @@
+body {
+    font-family: Montserrat;
+    color:white;
+    font-size: 16px;
+    padding:0; 
+    margin:0;
+    
+}
+
+
+.container {
+    display:flex;
+    max-width: 1140px;
+    }
+
+    .space-between {
+        justify-content:space-between;
+    }
+    
+    .space-evenly {
+        justify-content:space-evenly;
+    }
+
+    .margin-auto {margin:auto;}
+
+/* Navbar */
+nav {background-color:transparent;      
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+}
+
+.navbar
+{justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    margin:auto;
+}
+
+a:link {color:white;
+    text-decoration: none;
+    font-weight: 500;
+    }
+a:visited {color:white;}
+a:hover {color:#1ed760;}
+a:active {color:#1ed760}
+
+.navbar a {padding: 17px;}
+
+span {cursor:default;}
+
+/* Hero unit */
+.hero {
+    padding-top:69px;
+    min-height:100vh;
+    background: url("./images/woman_music.jpg");
+    background-size:100%;
+background-position:left top;
+background-repeat: no-repeat;
+
+    
+}
+
+.hero .test {
+    position:relative;
+    height: calc(100vh - 69px);
+    text-align:center;
+}
+
+.hero .get-free {    
+    max-width: 1140px;
+    text-align: center;
+    margin: auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero h1 {margin:0;
+    padding-bottom: 24px;
+    font-size:6vw;
+}
+#button {
+    padding: 14px 32px;
+    border-radius: 32px;
+    background-color:#1ed760;
+    color:white;
+    border: 0;
+    font-weight: 400;
+    cursor:pointer;
+    }
+
+#button:hover {
+    background-color: darkgreen; 
+}
+
+/* Spotify Premium */
+.premium {
+    background-color: #2941AB;
+    min-height: 70vh;
+    padding-top: 60px;
+}
+
+.premium .container {
+    align-items: center;
+}
+
+.premium h1 {
+    margin:0;
+    padding-bottom: 24px;
+    font-size:3vw;
+}
+
+.premium h2 {
+    font-size: 1em;
+    margin:0;
+    padding-bottom: 15px;
+    
+}
+
+.premium .text {
+    
+    flex-basis: 50%;
+}
+
+.premium .image-box {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+       
+}
+.premium img {
+object-fit: cover;
+height:100%;
+}
+
+/* Summary 2020 */
+.summary {
+    min-height:70vh;
+    background-image: linear-gradient(to bottom right, palevioletred, orange);
+}
+.summary .container {
+    align-items: center;
+    padding-top:30px;
+}
+
+.summary .image-box {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    
+    position:relative;
+    text-align: center;
+    padding: 0px;
+    }
+
+   
+
+
+#album1 {    
+    position:relative;
+    height:400px;
+    
+    z-index:2;
+    
+    
+}
+
+#album2 {
+    height: 350px;
+    position:absolute;
+    right:250px;
+    bottom:0;
+    z-index:1;
+}
+
+#album3 {
+    height: 350px;
+    position:absolute;
+    left:250px;
+    bottom:0;
+    z-index:1;
+}
+
+
+
+/* Footer */
+footer {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background-color:black;
+}
+.biggest {margin:auto;}
+.footer-box {max-width: 1140px;margin:auto;}
+
+
+
+.footer-links {padding: 0px 15px;
+    flex-direction: column;}
+
+.link-header {
+    font-size:1em;
+    text-transform: uppercase;
+    color:rgb(133, 133, 133);
+
+}
+
+footer a {
+    padding-top:3px;
+    padding-bottom:15px;
+}
+
+.img-bg {
+    background-color:#222326;
+    border-radius:50%;
+    width:54px;
+    height:54px;
+    position:relative;
+}
+
+.img-bg:hover {background-color:#1ed760;}
+
+.social img {
+    max-width:100%;
+    max-height:100%;
+    
+}
+
+.social .twitter {
+    max-width:70%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    }
+
+.social a {
+    padding-right:15px;
+}
+
+/* USA */
+.row2 {text-align:right}
+
+/* Bottom links */
+.bottom-row {padding-top:12px;}
+
+#bottom-links a {
+    font-size: 12px;
+    color:rgb(122, 122, 122);
+    font-weight:300;
+    padding-right:15px;
+}
+#bottom-links a:visited {color:white;}
+#bottom-links a:hover {color:#1ed760;}
+#bottom-links a:active {color:#1ed760;}
+
+#trademark {font-size: 12px;
+    color:rgb(122, 122, 122);
+    font-weight:400;}
+    
